@@ -21,8 +21,6 @@ Release note:
 Build Status:
 -------------
 
-[![Build Status](https://travis-ci.org/openvswitch/ovs.png)](https://travis-ci.org/openvswitch/ovs)
-
 What is Open vSwitch?
 ---------------------
 

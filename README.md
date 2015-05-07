@@ -4,22 +4,17 @@ Open vSwitch
 Onecloud's contribution to IGMPV3 support for OVS.
 
 Release note:
-============
-1. The current release is an experimental implementation of IGMPv3
-   and to validate against the functionality of version 3.
-2. The current version is a lighter version of IGMPv3 (IGMPv3-light)
-3. Currently the design is test with single source and the mode is 
-   controlled by Linux kernel.
-4. The code is not tuned for performance. Mainly the reason is there
-   are enough architectural design to be implemented and would take
-   longer for coding the same. However, it is a good starting point
-   for having the IGMPv3 and OVS been married together.
+=============
+1. The current release is an experimental implementation of IGMPv3 built to validate against the functionality.
+2. The existing code has leveraged mcast to build a lighter version of IGMPv3 (IGMPv3-light).
+3. Currently the design is tested for SSM (single source) and ASM. The default mode is controlled by the Linux kernel.
+4. The code is not tuned for performance. Mainly the reason is; it needs a overhaul for architectural design 
+   to have a full fledged code. This would take longer time for completion. 
+   However, it is a good starting point for having the IGMPv3 support on OVS.
 5. CHANGE_TO_INCLUDE, CHANGE_TO_EXCLUDE, ALLOW_NEW_SROUCE DROP_OLD_SOURCES
    are taken care with what ever capabilty we have as tools to test.
    
 ----------------------ORIGINAL-README---------------------------
-Build Status:
--------------
 
 What is Open vSwitch?
 ---------------------
